@@ -6,5 +6,7 @@
  * @returns {number}
  */
 export const sum = (m, n) => {
+    if (!n || !m) return
 
+    return m + n
 };
